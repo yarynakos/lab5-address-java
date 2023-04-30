@@ -4,6 +4,9 @@ import org.junit.gen5.api.AfterEach;
 import org.junit.gen5.api.BeforeEach;
 import org.junit.gen5.api.Test;
 
+import java.io.InputStream;
+import java.util.Scanner;
+
 import static org.junit.gen5.api.Assertions.assertEquals;
 
 class AddressTest {
@@ -34,6 +37,8 @@ class AddressTest {
 
     @Test
     void findAddress() {
-        assertEquals();
+        Scanner in = new Scanner(System.in);
+        String actual = in.nextLine();
+        String a = actual.
     }
 }
